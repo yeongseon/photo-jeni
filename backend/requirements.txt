@@ -1,0 +1,30 @@
+# 웹 프레임워크
+fastapi
+uvicorn
+
+# 요청 파서 및 스키마 유효성 검사
+pydantic>=2.0  # 최신 FastAPI는 Pydantic v2 기반
+
+# 파일 업로드 처리
+python-multipart
+
+# 이미지 처리
+opencv-python
+
+# Azure Blob Storage
+azure-storage-blob
+
+# HTTP 요청 라이브러리
+requests
+
+# 코드 정리
+black
+isort
+
+# 테스트
+pytest
+pytest-asyncio  # FastAPI async 테스트용
+httpx           # FastAPI endpoint 테스트에 필요
+
+# 타입 검사
+mypy
